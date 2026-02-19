@@ -1,13 +1,13 @@
-# Lab 02: Random Parentheses
+# Lab 2 : Random Parentheses
 
 Generates random +1/-1 sequences and measures what proportion are well-balanced (all prefix sums >= 0).
 
 ## Files
 
-- `BalancedParens.h` 
-- `BalancedParens.cpp` 
-- `BalancedParensMain.cpp` 
-- `tests.cpp` 
+- `BalancedParens.h` — declarations
+- `BalancedParens.cpp` — core logic
+- `BalancedParensMain.cpp` — main program
+- `tests.cpp` — unit tests
 
 ## Build & Run
 
