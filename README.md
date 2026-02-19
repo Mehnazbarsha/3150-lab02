@@ -1,4 +1,4 @@
-# Lab 2 : Random Parentheses
+# Lab 2: Random Parentheses
 
 Generates random +1/-1 sequences and measures what proportion are well-balanced (all prefix sums >= 0).
 
@@ -12,10 +12,16 @@ Generates random +1/-1 sequences and measures what proportion are well-balanced 
 ## Build & Run
 
 ```bash
-g++ -std=c++17 -Wall -o tests tests.cpp BalancedParens.cpp && ./tests
-
-g++ -std=c++17 -Wall -o main BalancedParensMain.cpp BalancedParens.cpp && ./main
+chmod +x build.sh && ./build.sh
 ```
+
+This compiles all files and automatically runs unit tests. If all tests pass, run the main program:
+
+```bash
+./main
+```
+
+Enter an integer `n` when prompted. The program will shuffle a sequence of 2n values and run thousands of trials, printing the observed ratio of well-balanced sequences and the Catalan estimate 1/(n+1).
 
 ## Algorithm
 
